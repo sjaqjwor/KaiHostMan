@@ -58,17 +58,17 @@ public class Chap3PracticeExam {
         //x
         DiscountedItem di = new DiscountedItem(new Item("exam",20),30);
         //y
-        DiscountedItem di2 = new DiscountedItem(new Item("exam",20),30);
+        Item it = new Item("exam",20);
+        //z
+        DiscountedItem di2 = new DiscountedItem(new Item("exam",20),31);
 
 
         //x y
-        System.out.println(di.equals(di2));
-        //y z
-        Item it = di;
-        System.out.println(di2.equals(it));
-        //x z
-        it= new Item("exam",20);
         System.out.println(di.equals(it));
+        //y z
+        System.out.println(it.equals(di2));
+        //x z
+        System.out.println(di.equals(di2));
     }
 
     @Test

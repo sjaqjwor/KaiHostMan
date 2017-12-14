@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fdd03cc-e842-493a-8154-012e0032f4b4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/chap3/Example.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/chap4/ExampleTest/Operation.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/chap4/PracticeExam/Circle.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/chap4/PracticeExam/Color.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/chap4/PracticeExam/DiscountedItem.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/chap4/PracticeExam/Item.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/chap4/PracticeExam/Line.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/chap4/PracticeExam/Shape.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/chap4/Chap3PracticeExam.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/test/Kaihostman/chap3/EmployeeTest.class" afterPath="$PROJECT_DIR$/out/test/Kaihostman/chap3/EmployeeTest.class" />
-      <change beforePath="$PROJECT_DIR$/test/chap3/EmployeeTest.java" afterPath="$PROJECT_DIR$/test/chap3/EmployeeTest.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaihostman/chap4/PracticeExam/DiscountedItem.class" afterPath="$PROJECT_DIR$/out/production/Kaihostman/chap4/PracticeExam/DiscountedItem.class" />
+      <change beforePath="$PROJECT_DIR$/out/test/Kaihostman/chap4/Chap3PracticeExam.class" afterPath="$PROJECT_DIR$/out/test/Kaihostman/chap4/Chap3PracticeExam.class" />
+      <change beforePath="$PROJECT_DIR$/src/chap4/PracticeExam/DiscountedItem.java" afterPath="$PROJECT_DIR$/src/chap4/PracticeExam/DiscountedItem.java" />
+      <change beforePath="$PROJECT_DIR$/test/chap4/Chap3PracticeExam.java" afterPath="$PROJECT_DIR$/test/chap4/Chap3PracticeExam.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Chap3PracticeExam.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Chap3PracticeExam.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/chap4/Chap3PracticeExam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="70" column="39" lean-forward="false" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+            <state relative-caret-position="252">
+              <caret line="70" column="14" lean-forward="false" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,8 +54,8 @@
       <file leaf-file-name="Shape.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chap4/PracticeExam/Shape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="360">
+              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="e#154#155#0" expanded="true" />
                 <element signature="e#186#187#0" expanded="true" />
@@ -75,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/src/chap4/PracticeExam/Color.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding>
                 <element signature="e#135#136#0" expanded="true" />
                 <element signature="e#161#162#0" expanded="true" />
@@ -91,8 +84,8 @@
       <file leaf-file-name="Example2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chap4/Example2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#110#111#0" expanded="true" />
                 <element signature="e#139#140#0" expanded="true" />
@@ -106,8 +99,8 @@
       <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chap4/PracticeExam/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            <state relative-caret-position="213">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="e#603#604#0" expanded="true" />
                 <element signature="e#642#643#0" expanded="true" />
@@ -118,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiscountedItem.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DiscountedItem.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chap4/PracticeExam/DiscountedItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            <state relative-caret-position="54">
+              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
               <folding>
                 <element signature="e#280#281#0" expanded="true" />
                 <element signature="e#316#317#0" expanded="true" />
@@ -131,11 +124,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Kaihostman.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Kaihostman.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chap4/PracticeExam/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#230#231#0" expanded="true" />
                 <element signature="e#264#265#0" expanded="true" />
@@ -146,27 +149,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chap4/PracticeExam/Rectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-              <folding>
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Line.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chap4/PracticeExam/Line.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
+            <state relative-caret-position="306">
               <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#262#263#0" expanded="true" />
@@ -272,8 +258,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,8 +316,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -610,46 +596,48 @@
       <workItem from="1513128610819" duration="6676000" />
       <workItem from="1513139947335" duration="389000" />
       <workItem from="1513214962117" duration="14462000" />
+      <workItem from="1513229917387" duration="1237000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 16m 52s.xml">
+    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 40m 00s.xml">
       <configuration name="Chap3PracticeExam.equalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 17m 08s.xml">
+    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 41m 13s.xml">
       <configuration name="Chap3PracticeExam.equalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 17m 38s.xml">
+    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 43m 06s.xml">
       <configuration name="Chap3PracticeExam.equalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 19m 12s.xml">
+    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 45m 08s.xml">
       <configuration name="Chap3PracticeExam.equalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 24m 45s.xml">
+    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 52m 44s.xml">
       <configuration name="Chap3PracticeExam.equalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 25m 04s.xml">
+    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 54m 13s.xml">
       <configuration name="Chap3PracticeExam.equalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 26m 57s.xml">
+    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 55m 13s.xml">
       <configuration name="Chap3PracticeExam.equalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 28m 40s.xml">
+    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 56m 22s.xml">
       <configuration name="Chap3PracticeExam.equalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 29m 27s.xml">
+    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 57m 05s.xml">
       <configuration name="Chap3PracticeExam.equalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 30m 27s.xml">
+    <history-entry file="Chap3PracticeExam_equalTest - 2017.12.14 at 14h 58m 57s.xml">
       <configuration name="Chap3PracticeExam.equalTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28665000" />
+    <option name="totallyTimeSpent" value="29902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-4" width="1321" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -659,25 +647,25 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33021808" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33021808" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2627852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2675059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,24 +679,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chap3/Greeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="e#229#230#0" expanded="false" />
-            <element signature="e#294#295#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/chap3/EmployeeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2540#2548#0" expanded="true" />
+            <element signature="e#2540#2548#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -799,37 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="77" column="62" lean-forward="false" selection-start-line="77" selection-start-column="62" selection-end-line="77" selection-end-column="62" />
-          <folding>
-            <marker date="1509141854000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1509141854000" expanded="false" signature="133:415" ph="..." />
-            <marker date="1509141854000" expanded="false" signature="575:586" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="624:630" ph=" }" />
-            <marker date="1509141854000" expanded="true" signature="700:935" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="800:926" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="1048:1113" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="1228:1287" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="1363:1425" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="1503:1566" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="1648:1713" ph="{...}" />
-            <marker date="1509141854000" expanded="false" signature="1788:1799" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="1833:1839" ph=" }" />
-            <marker date="1509141854000" expanded="false" signature="1914:1925" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="1964:1970" ph=" }" />
-            <marker date="1509141854000" expanded="false" signature="2039:2050" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="2088:2094" ph=" }" />
-            <marker date="1509141854000" expanded="false" signature="2162:2173" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="2212:2218" ph=" }" />
-            <marker date="1509141854000" expanded="true" signature="2329:2557" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="2467:2548" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="2670:2872" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="2771:2863" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="2947:3152" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="3048:3143" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="3229:3433" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="3330:3424" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="3514:3724" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="3615:3715" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -850,7 +796,7 @@
           <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2540#2548#0" expanded="true" />
+            <element signature="e#2540#2548#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -910,7 +856,7 @@
           <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2540#2548#0" expanded="true" />
+            <element signature="e#2540#2548#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1005,37 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="77" column="62" lean-forward="false" selection-start-line="77" selection-start-column="62" selection-end-line="77" selection-end-column="62" />
-          <folding>
-            <marker date="1509141854000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1509141854000" expanded="false" signature="133:415" ph="..." />
-            <marker date="1509141854000" expanded="false" signature="575:586" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="624:630" ph=" }" />
-            <marker date="1509141854000" expanded="true" signature="700:935" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="800:926" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="1048:1113" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="1228:1287" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="1363:1425" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="1503:1566" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="1648:1713" ph="{...}" />
-            <marker date="1509141854000" expanded="false" signature="1788:1799" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="1833:1839" ph=" }" />
-            <marker date="1509141854000" expanded="false" signature="1914:1925" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="1964:1970" ph=" }" />
-            <marker date="1509141854000" expanded="false" signature="2039:2050" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="2088:2094" ph=" }" />
-            <marker date="1509141854000" expanded="false" signature="2162:2173" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="2212:2218" ph=" }" />
-            <marker date="1509141854000" expanded="true" signature="2329:2557" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="2467:2548" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="2670:2872" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="2771:2863" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="2947:3152" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="3048:3143" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="3229:3433" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="3330:3424" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="3514:3724" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="3615:3715" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1103,10 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,9 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#1383#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,10 +1033,10 @@
         <state relative-caret-position="198">
           <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#90#91#0" expanded="false" />
+            <element signature="e#121#122#0" expanded="false" />
+            <element signature="e#145#146#0" expanded="false" />
+            <element signature="e#203#204#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1137,7 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="8" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,7 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="132" column="19" lean-forward="false" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,7 +1061,7 @@
           <caret line="201" column="42" lean-forward="false" selection-start-line="201" selection-start-column="42" selection-end-line="201" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2540#2548#0" expanded="true" />
+            <element signature="e#2540#2548#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1175,7 +1081,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chap4/PracticeExam/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="324">
           <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
             <element signature="e#298#299#0" expanded="true" />
@@ -1190,7 +1096,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chap4/PracticeExam/Line.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
+        <state relative-caret-position="306">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#262#263#0" expanded="true" />
@@ -1205,8 +1111,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chap4/PracticeExam/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#230#231#0" expanded="true" />
             <element signature="e#264#265#0" expanded="true" />
@@ -1218,8 +1124,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chap4/PracticeExam/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="360">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="e#154#155#0" expanded="true" />
             <element signature="e#186#187#0" expanded="true" />
@@ -1230,7 +1136,7 @@
     <entry file="file://$PROJECT_DIR$/src/chap4/PracticeExam/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding>
             <element signature="e#135#136#0" expanded="true" />
             <element signature="e#161#162#0" expanded="true" />
@@ -1244,26 +1150,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chap4/Example2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#110#111#0" expanded="true" />
             <element signature="e#139#140#0" expanded="true" />
             <element signature="e#161#162#0" expanded="true" />
             <element signature="e#190#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chap4/PracticeExam/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1287,23 +1180,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chap4/PracticeExam/DiscountedItem.java">
+    <entry file="file://$PROJECT_DIR$/src/chap4/PracticeExam/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        <state relative-caret-position="213">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kaihostman.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/chap4/Chap3PracticeExam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="70" column="39" lean-forward="false" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+        <state relative-caret-position="252">
+          <caret line="70" column="14" lean-forward="false" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chap4/PracticeExam/DiscountedItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>

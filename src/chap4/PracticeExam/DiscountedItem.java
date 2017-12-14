@@ -16,15 +16,16 @@ public class DiscountedItem extends Item{
     @Override
     public boolean equals(Object object){
         if(object.getClass() == Item.class){
-            super.equals(object);
+           return  super.equals(object);
         }
-        if (object.getClass() == DiscountedItem.class){
+        else if (object.getClass() == DiscountedItem.class){
 
             super.equals(object);
             DiscountedItem di= (DiscountedItem)object;
             return new Double(di.discount).equals(new Double(this.discount));
         }
-        return false;
+
+            return false;
 
     }
 }
