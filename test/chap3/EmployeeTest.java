@@ -2,15 +2,14 @@ package chap3;
 
 import chap3.Employee;
 import chap3.Measurable;
+import chap4.Example2;
+import chap4.ExampleTest.Operation;
 import org.junit.Test;
 
 import javax.imageio.stream.ImageOutputStream;
 import java.io.File;
 import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.Scanner;
+import java.util.*;
 
 public class EmployeeTest {
 
@@ -168,6 +167,41 @@ public class EmployeeTest {
             }
         }
     }
+
+    @Test
+    public void example(){
+        Example2 e = new Example2(2);
+        System.out.println(e.get());
+        System.out.println(e.toString() );
+    }
+
+    @Test
+    public void example2(){
+        ArrayList<String> list = new ArrayList<String>(100){
+            public void add(int index, String element){
+                System.out.println("a");
+                super.add(index,element);
+                System.out.println(element+" "+index);
+            }
+        };
+        list.add(0,"이승기");
+
+    }
+    @Test
+    public void equalsTest(){
+        String name="이승기";
+        String name1=null;
+        System.out.println(name.equals(name));
+        System.out.println(Objects.equals(name,name1));
+
+    }
+
+    @Test
+    public void enumTest(){
+        Operation op = Operation.ADD;
+        System.out.println(op.eval(10,20));
+    }
+
 
 
 }
