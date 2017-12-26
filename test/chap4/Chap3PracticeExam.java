@@ -3,6 +3,8 @@ package chap4;
 import chap4.PracticeExam.*;
 import org.junit.Test;
 
+import java.io.PrintWriter;
+
 public class Chap3PracticeExam {
 
     @Test

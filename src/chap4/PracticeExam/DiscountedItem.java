@@ -1,5 +1,7 @@
 package chap4.PracticeExam;
 
+import java.util.Objects;
+
 public class DiscountedItem extends Item{
 
     private double discount;
@@ -12,6 +14,7 @@ public class DiscountedItem extends Item{
     public double getDiscount(){
         return this.discount;
     }
+
 
     @Override
     public boolean equals(Object object){
