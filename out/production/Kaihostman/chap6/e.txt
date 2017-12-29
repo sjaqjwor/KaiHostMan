@@ -1,0 +1,23 @@
+Compiled from "Employee.java"
+public class chap6.Employee implements java.lang.Comparable<chap6.Employee> {
+  public chap6.Employee();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public int compareTo(chap6.Employee);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokevirtual #2                  // Method compareTo:(Lchap6/Employee;)I
+       5: ireturn
+
+  public int compareTo(java.lang.Object);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: checkcast     #3                  // class chap6/Employee
+       5: invokevirtual #2                  // Method compareTo:(Lchap6/Employee;)I
+       8: ireturn
+}

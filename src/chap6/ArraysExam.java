@@ -1,8 +1,12 @@
 package chap6;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+import java.util.function.Function;
+import java.util.function.IntFunction;
 
 public class ArraysExam{
 
@@ -59,6 +63,62 @@ public class ArraysExam{
         }
 
         return new Pair<E>(min,max);
+    }
+
+    public static <T> void minmax(List<T> elements , Comparator<? super T> comp , List<? super T> result){
+        T min = elements.get(0);
+        T max = elements.get(0);
+        for(T t1 : elements){
+            if(comp.compare(t1,min)<0){
+                min=t1;
+            }
+            if(comp.compare(t1,max)>0){
+                max=t1;
+            }
+        }
+        result.add(min);
+        result.add(max);
+    }
+
+    public static <T extends AutoCloseable> void closeAll(ArrayList<T> list){
+        T t = null;
+        for(int a=0; a<list.size();a++){
+            try{
+                t=list.get(0);
+            }catch (Exception e){
+
+            }finally {
+                if(t!=null){
+                    try {
+                        t.close();
+                    }catch (Exception e){
+
+                    }
+                }
+            }
+
+        }
+    }
+
+    public static <T,R> List<R> f(List<T> list , Function<T,R> function){
+        List<R> result = new ArrayList<>();
+        for(T t : list){
+            result.add(function.apply(t));
+        }
+        return result;
+    }
+
+    public static <T> ArrayList<T> repeat(int n, T obj, IntFunction<T[]> constr){
+        ArrayList<T> list = new ArrayList<>();
+        return list;
+    }
+
+    public static final <T> T[] r(int n , T...objs){
+        T []t = objs;
+        for(int a=0;a<n;a++){
+            t= Arrays.copyOf(t,n);
+        }
+        return t;
     }
 
 

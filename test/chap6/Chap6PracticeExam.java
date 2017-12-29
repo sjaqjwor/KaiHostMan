@@ -1,10 +1,13 @@
 package chap6;
 
+import chap5.HelperClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class Chap6PracticeExam {
@@ -103,5 +106,59 @@ public class Chap6PracticeExam {
         Pair<Integer> p = ArraysExam.minMax(list);
         System.out.println(p.getF()+" "+p.getT());
     }
+
+    @Test
+    public void exam12(){
+        List<String> list = new ArrayList<>();
+        list.add("a");
+        list.add("b");
+        list.add("c");
+        List<Object> result = new ArrayList<>();
+        ArraysExam.minmax(list,Comparator.comparing(s->s),result);
+        result.forEach(s->System.out.println(s));
+
+    }
+
+    @Test
+    public void exam14(){
+        ArrayList<HelperClass> list = new ArrayList<>();
+        ArraysExam.closeAll(list);
+    }
+
+    @Test
+    public void exam15(){
+        List<Integer> list = new ArrayList<>();
+        for(int a=0;a<100;a++){
+            list.add(a);
+        }
+        List<Integer> list1 = ArraysExam.f(list,(s)-> s*2);
+        list1.forEach(s->System.out.println(s));
+    }
+
+    @Test
+    public void exam17(){
+        System.out.println("javap -c Employee > e.txt");
+    }
+
+    @Test
+    public void exam18(){
+        //ArraysExam.repeat(10,42,int[]::new);
+        ArraysExam.repeat(10,42,Integer[]::new);
+    }
+    @Test
+    public void exam19(){
+        System.out.println("타입변수는 인스턴스 생성 불가 이유는 타입변수가 사라지면 개발자의 의도 대로 만들어지지 않는다. ");
+    }
+
+    @Ignore
+    @Test
+    public void exam20(){
+       Integer[]k = ArraysExam.r(10,42,43,44,45);
+
+    }
+
+    
+
+
 
 }
