@@ -11,15 +11,25 @@ import java.util.function.IntFunction;
 public class ArraysExam{
 
     public static <T> T[] swap(int i, int j , T ...value){
+        System.out.println(value.getClass().getComponentType());
         T t = value[i];
         value[i]=value[j];
         value[j]=t;
         return value;
     }
 
-    public static <E> List<?> change(List<? extends E> list,List<? super E>list1){
-        list1.addAll(list);
-        return list1;
+//    public static <E> List<?> change(List<? extends E> list,List<E>list1){
+//
+//        list1.addAll(list);
+//
+//        return list1;
+//    }
+    public static <E> void change1(List<? super E> list , List<E>list1){
+
+      for(int a=0;a<list.size();a++){
+          list1.add((E)list.get(a));
+      }
+
     }
 
     public static <E extends Comparable<E>> Pair<E> firstLast(ArrayList<E> list){
@@ -81,22 +91,30 @@ public class ArraysExam{
     }
 
     public static <T extends AutoCloseable> void closeAll(ArrayList<T> list){
-        T t = null;
-        for(int a=0; a<list.size();a++){
-            try{
-                t=list.get(0);
+//        T t = null;
+//        for(int a=0; a<list.size();a++){
+//            try{
+//                t=list.get(a);
+//            }catch (Exception e){
+//
+//            }finally {
+//                if(t!=null){
+//                    try {
+//                        t.close();
+//                    }catch (Exception e){
+//
+//                    }
+//                }
+//            }
+//        }
+
+
+        for(int a=0;a<list.size();a++){
+            try(T t = list.get(a)){
+
             }catch (Exception e){
 
-            }finally {
-                if(t!=null){
-                    try {
-                        t.close();
-                    }catch (Exception e){
-
-                    }
-                }
             }
-
         }
     }
 
@@ -119,6 +137,16 @@ public class ArraysExam{
             t= Arrays.copyOf(t,n);
         }
         return t;
+    }
+    private static <T> void swaph(List<T> elements,int i , int j){
+        T temp = elements.get(i);
+        elements.set(i,elements.get(j));
+        elements.set(j,temp);
+    }
+    public static <T> void mx(List<T> e , Comparator<? super  T> comparator, List<? super T> list ){
+//        minmax(e,comparator,list);
+
+        swaph(list,0,1);
     }
 
 

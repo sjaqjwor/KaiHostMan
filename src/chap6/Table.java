@@ -13,20 +13,22 @@ public class Table<K,V> {
     }
 
     public V getValue(K k){
-        V v=null;
             for(Entry entry : list){
                 if(entry.getKey().equals(k)){
-                    v=entry.getValue();
+                    return entry.getValue();
                 }
             }
-            return v;
+            return null;
     }
 
     public void put(K key ,V value ){
-        Entry entry = new Entry(key,value);
-        if (!list.contains(entry)){
-            list.add(entry);
+        for(Entry e : list){
+            if(e.getKey().equals(key)){
+                e.setValue(value);
+                return;
+            }
         }
+        list.add(new Entry(key,value));
     }
 
     public void remove(K key){
@@ -52,6 +54,12 @@ public class Table<K,V> {
         }
         public V getValue(){
             return value;
+        }
+        public void setValue(V v){
+           this.value=v;
+        }
+        public void setKey(K k){
+            this.key=k;
         }
     }
 

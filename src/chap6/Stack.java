@@ -12,7 +12,10 @@ public class Stack<E> {
     private Object obj[] = new Object[16];
     private E e[];
 
-    public Stack(){ }
+    public Stack(){
+        e = (E[]) new Object[10];
+
+    }
 //
 //    public E push(E var1){
 //        list.add(var1);
@@ -20,7 +23,7 @@ public class Stack<E> {
 //    }
 //    public E pop(){
 //
-//        return (E)list.get(list.size());
+//        return (E)list.get(list.size()-1);
 //    }
 //
 //    public boolean isEmpty(){
@@ -28,26 +31,23 @@ public class Stack<E> {
 //    }
 
     public E push(E var){
-        e=(E[])java.lang.reflect.Array.newInstance(var.getClass(),16);
         if(count==obj.length-1){
-            obj= new Object[count*2];
+            obj= Arrays.copyOf(obj,count*2);
         }
         if(count==e.length-1){
-            e=(E[])java.lang.reflect.Array.newInstance(var.getClass(),count*2);
+            e=Arrays.copyOf(e,count*2);
         }
         obj[count]=var;
-        e[count]=var;
-        count++;
+        e[count++]=var;
         return var;
     }
 
     public E pop(){
-        count--;
         //return (E)obj[count];
-        return e[count];
+        return e[count--];
     }
 
     public boolean isEmpty(){
-        return count==0 ? true : false;
+        return count==0;
     }
 }
