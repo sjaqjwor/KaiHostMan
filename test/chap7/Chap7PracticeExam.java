@@ -10,6 +10,40 @@ import java.util.*;
 public class Chap7PracticeExam {
 
     @Test
+    public void exma1() {
+        HashSet<Integer> hs = new HashSet<Integer>();
+            for(int a=2;a<10;a++){
+                hs.add(a);
+            }
+        int s = 2;
+        while (s * s < 10) {
+            for (int i = 0; i < hs.size(); i++) {
+                if (hs.contains(s * (s + i))) {
+                    hs.remove(s * (s + i));
+                }
+            }
+            s++;
+        }
+        hs.forEach(s1->System.out.println(s1));
+
+        BitSet bitSet = new BitSet(10);
+        for(int a=2;a<10;a++){
+            bitSet.set(a);
+        }
+        s = 2;
+        while (s * s < 10) {
+            for (int i = 0; i < hs.size(); i++) {
+
+                    bitSet.clear(s * (s + i));
+
+            }
+            s++;
+        }
+        System.out.println();
+        bitSet.stream().forEach(s1->System.out.println(s1));
+
+    }
+    @Test
     public void exam2() {
         List<String> list = new ArrayList<>();
         for (char a = 'a'; a <= 'z'; a++) {
@@ -38,7 +72,6 @@ public class Chap7PracticeExam {
         for(char a='a';a<='z';a++){
             list.add(String.valueOf(a));
         }
-
         list.replaceAll(String::toUpperCase);
         list.forEach(s->System.out.print(s+ " "));
     }
@@ -67,6 +100,7 @@ public class Chap7PracticeExam {
     public void exam4(){
         ChapExample chapExample = new ChapExample();
         chapExample.concurrent();
+
     }
 
     @Test
@@ -86,10 +120,10 @@ public class Chap7PracticeExam {
     }
     @Test
     public void exam6(){
-        HashMap<String,Set<Integer>> map  = new HashMap<>();
+        Map<String,Set<String>> map  = new TreeMap<>();
         Set<Integer> set = new HashSet<>();
         set.add(10);
-        map.put("l",set);
+
     }
 
     @Test
@@ -109,16 +143,32 @@ public class Chap7PracticeExam {
     }
     @Test
     public void exam8(){
-        Set<String> set = new HashSet<>();
+        Map<String,List<Integer>> set = new HashMap<>();
         try(BufferedReader bu =new BufferedReader(new FileReader(new File("text1.txt")))){
             String read=null;
+            int count = 0;
             while((read=bu.readLine())!=null){
-                set.add(read);
+                count++;
+                if(set.containsKey(read)){
+                    List<Integer> list = set.get(read);
+                    list.add(count);
+                    set.put(read,list);
+                }else{
+                    List<Integer> list = new ArrayList<>();
+                    list.add(count);
+                    set.put(read,list);
+                }
             }
         }catch (Exception e){
 
         }
-        set.forEach(s->System.out.println(s));
+       for(Map.Entry<String, List<Integer>> e : set.entrySet()){
+            System.out.print(e.getKey()+" ");
+            for(int a=0;a<e.getValue().size();a++){
+                System.out.print(e.getValue().get(a)+" ");
+            }
+            System.out.println();
+       }
 
     }
     @Test
@@ -185,12 +235,10 @@ public class Chap7PracticeExam {
         list.set(list.size()-1,last);
         list.forEach(s->System.out.println(s));
 
-
-
-
     }
     @Test
     public void exam13(){
+
         Cache cache = new Cache(10);
         for(int a=0;a<13;a++){
             cache.put("str"+a,a);
@@ -203,6 +251,13 @@ public class Chap7PracticeExam {
         List<Integer> list = chapExample.unmodi();
         list.add(123);
     }
+
+    @Test
+    public void exam15(){
+       
+    }
+
+
 
 
 }

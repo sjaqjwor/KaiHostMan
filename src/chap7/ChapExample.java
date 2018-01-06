@@ -14,11 +14,11 @@ public class ChapExample {
        list.add("b");
        list.add("c");
 
-       for(String k : list){
-           if("a".equals(k)){
-               list.remove(k);
-           }
-       }
+//       for(String k : list){
+//
+//               list.remove(k);
+//
+//       }
 
        Iterator<String> iterator = list.iterator();
        while(iterator.hasNext()){
@@ -55,8 +55,7 @@ public class ChapExample {
 
     public List<Integer> unmodi(){
 
-       return Collections.unmodifiableList(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
-
+       return Collections.unmodifiableList(Arrays.asList(1,2,3,4,5,6,7,8,9));
     }
 
 }
