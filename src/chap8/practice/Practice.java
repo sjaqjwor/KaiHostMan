@@ -5,6 +5,9 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.lang.reflect.Array;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -73,6 +76,14 @@ public class Practice{
 //        return s.codePoints().allMatch(c-> Character.isAlphabetic(c));
     }
 
+    public static void exam7() throws IOException{
+//        System.out.println(System.getProperty("user.dir"));
+//        try (Stream<String> stream = Files.lines(Paths.get(System.getProperty("user.dir")+"/test.txt"))) {
+//            stream.flatMap(s -> Arrays.stream(s.split(" "))).filter(s -> s.length() > 0).peek(System.out::print).
+//                    filter(s -> Character.isAlphabetic(s.charAt(0)-48)).limit(100).
+//                    forEach(s -> System.out.println(s));
+//        }
+    }
     public static void exam9(){
         String str = "ohjinwoo is fool and he is a always solo";
         IntSummaryStatistics intSummaryStatistics = Arrays.stream(str.split(" ")).collect(Collectors.summarizingInt(String::length));
@@ -97,6 +108,26 @@ public class Practice{
             list3.add(a>=list2.size() ? null : list2.get(a));
         }
         return list3.stream();
+    }
+    public static<T> ArrayList<T> exam13( Stream<ArrayList<T>> stream ){
+
+        return stream.reduce(new ArrayList<>(),(s,s1)->Stream.concat(s.stream(),s1.stream()).collect(Collectors.toCollection(ArrayList::new)));
+
+    }
+
+    public static void disti(){
+        List<String> list = new ArrayList<>();
+        for(char a='A';a<'Z';a++){
+            for(int a1=0;a1<2;a1++) {
+                list.add(String.valueOf(a));
+            }
+        }
+        list.forEach(System.out::print);
+        System.out.println();
+        list.stream().distinct().forEach(System.out::print);
+        System.out.println();
+        list.parallelStream().distinct().forEach(System.out::print);
+
     }
 
 }

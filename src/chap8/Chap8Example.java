@@ -161,7 +161,11 @@ public class Chap8Example {
         list1.add("asd");
         list1.add("c");
         int arr[] = new int[5];
-
+        List<String> list2  = new ArrayList<>();
+        list2.add("a");
+        List<String> list3 = new ArrayList<>();
+        list3.add("4");
+        Stream<String> stringStream = Stream.concat(list2.stream(),list3.stream()).peek(System.out::println);
 
 
     }
