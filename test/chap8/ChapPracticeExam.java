@@ -38,13 +38,18 @@ public class ChapPracticeExam {
 
     @Test
     public void test6(){
-        System.out.println(Practice.exam6("koke"));
-        System.out.println(Practice.exam6("koke1"));
-        System.out.println(Practice.exam6("koke3"));
+       Practice.exam6("koke asdads");
+       Practice.exam6("koke");
+       Practice.exam6("sdsdsd4545");
+       Practice.exam6("koke sdc");
     }
     @Test
     public void test7() throws IOException{
         Practice.exam7();
+    }
+    @Test
+    public void test8() throws IOException{
+        Practice.exam8();
     }
 
     @Test
