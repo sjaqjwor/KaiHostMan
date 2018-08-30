@@ -149,7 +149,7 @@ public class Practice{
     public static<T> ArrayList<T> exam13( Stream<ArrayList<T>> stream ){
 
         return stream.reduce(new ArrayList<>(),(s,s1)->Stream.concat(s.stream(),s1.stream()).collect(Collectors.toCollection(ArrayList::new)));
-        
+
     }
 
     public static void disti(){

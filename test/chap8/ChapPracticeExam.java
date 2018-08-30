@@ -89,14 +89,14 @@ public class ChapPracticeExam {
         list.add(6.0);
         list.add(7.0);
         Stream<Double> stream = list.stream();
-//        double d1 = stream.mapToDouble(d -> d).average().orElse(0.0);
-//        System.out.println(d1);
+        double d1 = stream.mapToDouble(d -> d).average().orElse(0.0);
+        System.out.println(d1);
         //stream은 한번ㅁ나 소비가능한데 2번한 경우가 됨...
-        double d = stream.reduce((x,y)->x+y).
-                map(x -> x/stream.count()).
-                orElse(0.0);
+//        double d = stream.reduce((x,y)->x+y).
+//                map(x -> x/list.size()-1).
+//                orElse(0.0);
 
-        System.out.println(d);
+//        System.out.println(d);
     }
     @Test
     public void test17(){
